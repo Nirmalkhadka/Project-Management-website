@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form name="form" onsubmit="return validated()">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <div id="email-error">please fill up your email</div>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <div id="pass-error">please fill your password</div>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember me</label>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <!-- Place this div after the form -->
+<div id="login-done">Login done</div>
+
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>
