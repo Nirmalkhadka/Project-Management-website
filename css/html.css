@@ -21,30 +21,6 @@
     margin-bottom: 10px; /* Add margin-bottom for spacing */
   }
   
-  .search-bar {
-    display: flex; /* Adjust the display */
-    flex-wrap: wrap; /* Allow items to wrap */
-    align-items: center;
-    margin-bottom: 10px; /* Add margin-bottom for spacing */
-  }
-  
-  .search-bar input[type="text"] {
-    padding: 8px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    width: 200px;
-    margin-right: 10px; /* Add margin-right for spacing */
-  }
-  
-  .search-bar button[type="submit"] {
-    padding: 8px 16px;
-    background: #4caf50;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-  
   .user-actions {
     display: flex; /* Adjust the display */
     flex-wrap: wrap; /* Allow items to wrap */

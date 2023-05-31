@@ -1,0 +1,148 @@
+* {
+    margin: 0%;
+    /* box-sizing: border-box; Add box-sizing property */
+  }
+  
+  header {
+    background: #979191;
+    padding: 15px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Add margin-bottom for spacing */
+  }
+  
+  .user-actions {
+    display: flex; /* Adjust the display */
+    flex-wrap: wrap; /* Allow items to wrap */
+  }
+  
+  .user-actions a {
+    margin: 5px; /* Add margin for spacing */
+    padding: 8px 16px;
+    background: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .user-actions a:hover {
+    background: #ddd;
+  }
+
+  .head{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    margin-left: 50%;
+    /* letter-spacing: 90%; */
+  }
+  .head a{
+    margin: 5px; /* Add margin for spacing */
+    padding: 8px 16px;
+    /* background: #f1f1f1; */
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: larger;
+    /* letter-spacing: 40%; */
+  }
+  .head a:hover{
+    color: #ddd;
+  }
+  /* header ends  */
+
+.arrow{
+  margin: 1%;
+    /* padding: 1%; */
+}
+.arrow1{
+  width: 30px;
+  /* size-adjust: 2%; */
+}
+.arrow img:hover{
+cursor:pointer;
+}
+.project h2{
+  margin-left: 38%;
+  display: inline-block;
+  text-align: center;
+  font-size: 35px;
+}
+.description{
+  margin: 1%;
+  font-size: larger;
+  font-family: 'Roboto', sans-serif;
+}
+.team-member{
+  margin-left: 39%;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  border: 1px solid black;
+  /* margin: .5%; */
+  /* padding: .5%; */
+  padding-left: 3%;
+  padding-right: 3%;
+  /* border-color: #9b9696; */
+  background-color: #ddd;
+}
+/* project -image css  */
+.project-image{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 1%;
+}
+.image1{
+  margin: 1%;
+  border: 1px solid black;
+}
+.image2{
+  height: 162px;
+  margin: 1%;
+  border: 1px solid black;
+  width: 300px;
+}
+.image3{
+  height: 162px;
+  margin: 1%;
+  border: 1px solid black;
+  width: 310px;
+}
+.image4{
+  height: 162px;
+  margin: 1%;
+  border: 1px solid black;
+  width: 300px;
+}
+/* project link css  */
+
+.project-link{
+margin: 1%;
+/* text-decoration: none; */
+color: #1f1e1e;
+}
+
+.project-link a{
+  text-decoration: none;
+  color: rgb(247, 12, 12);
+}
+
+  /* fotter start  */
+  .foter{
+    /* display: flex; */
+    padding: .5rem;
+    text-align: center;
+    background-color: #979191;
+    height: 4vh;
+  }
+  

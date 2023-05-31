@@ -5,6 +5,18 @@
   <link rel="stylesheet" type="text/css" href="css/signup.css">
 </head>
 <body>
+  <header>
+    <div class="container1">
+      <h1 class="logo">ProjectHub</h1>
+      <div class="user-actions">
+        <a href="#" class="login-button">Login</a>
+
+        <a href="#" class="signup-button">Sign Up</a>
+      </div>
+    </div>
+  </header>
+  <!-- header ends  -->
+
   <div class="container">
     <h2>Signup</h2>
     <form name="form" onsubmit="return validateForm()">
@@ -28,9 +40,24 @@
         <input type="tel" id="phone" name="phone" required>
         <div id="phone-error"></div>
       </div>
-      <button type="submit">Signup</button>
+      <button type="submit" class="signup-btn">Signup</button>
+      <!-- profile picture  -->
+
+      <div class="btn">
+        <img src="images/download (4).jpg" alt="profile" id="photo">
+        <input type="file" id="file">
+        <label for="file" id="uploadbtn1">Choose photo</label>
+        <script src="js/profile.js"></script>
+      </div>
+      <div class="profile-name">Add Profile</div>
     </form>
   </div>
   <script src="js/signup.js"></script>
+  
+ <!-- start fotter  -->
+ <footer class="foter">
+  &copyCopyrights belong to UploadHub
+</footer>  
 </body>
+
 </html>
